@@ -1,0 +1,134 @@
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f8f8;
+  }
+  
+  .churrascos-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .churrascos-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .churrascos-subtitle {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: #444;
+  }
+  
+  .churrascos-form-section {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .churrascos-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .churrascos-label {
+    font-weight: 500;
+    margin: 0.5rem 0 0.25rem;
+    color: #555;
+  }
+  
+  .churrascos-radios {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .churrascos-input {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .churrascos-button {
+    background-color: #ff385c;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    max-width: 200px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .churrascos-button:hover {
+    background-color: #e03350;
+  }
+  
+  .churrascos-divider {
+    margin: 2rem 0;
+    border: none;
+    border-top: 1px solid #ccc;
+  }
+  
+  .churrascos-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .churrasco-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    padding: 1rem;
+    width: 100%;
+    max-width: 280px;
+    flex: 1;
+  }
+  
+  .churrasco-card-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+    margin: 0 0 0.5rem;
+  }
+  
+  .porcion-info {
+    background-color: #fafafa;
+    border-radius: 6px;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+  }
+  
+  .churrasco-delete-button {
+    background-color: #ff385c;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .churrasco-delete-button:hover {
+    background-color: #e03350;
+  }
+  
+  .porcion-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #eee;
+  }

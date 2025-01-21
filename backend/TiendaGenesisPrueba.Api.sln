@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.Build.Construction.SolutionFile" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!-- 
+    Este archivo de solución se genera generalmente con Visual Studio o a través de dotnet new sln.
+    Para simplicidad, se deja la estructura mínima.
+  -->
+  <SolutionFolders />
+</Project>

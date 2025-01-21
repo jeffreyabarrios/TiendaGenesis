@@ -1,0 +1,106 @@
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f8f8;
+  }
+  
+  .inventory-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .inventory-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .inventory-category-section {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+    margin-bottom: 2rem;
+  }
+  
+  .inventory-subtitle {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: #444;
+  }
+  
+  .inventory-item-row {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .inventory-item-name {
+    flex: 1;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .inventory-quantity {
+    width: 50px;
+    text-align: center;
+    font-weight: 500;
+  }
+  
+  .inventory-unit {
+    width: 80px;
+    text-align: center;
+    color: #666;
+  }
+  
+  .inventory-input {
+    padding: 0.4rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  
+  .inventory-edit-button,
+  .inventory-save-button,
+  .inventory-cancel-button {
+    background-color: #ff385c;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .inventory-save-button {
+    background-color: #00a86b; /* un verde suave */
+  }
+  
+  .inventory-save-button:hover {
+    background-color: #008f5a;
+  }
+  
+  .inventory-cancel-button {
+    background-color: #aaa;
+    margin-left: 0.5rem;
+  }
+  
+  .inventory-cancel-button:hover {
+    background-color: #888;
+  }
+  
+  .inventory-edit-button:hover {
+    background-color: #e03350;
+  }
+  
+  .inventory-empty {
+    color: #777;
+    font-style: italic;
+  }
+  
